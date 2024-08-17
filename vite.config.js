@@ -11,4 +11,4 @@ export default defineConfig({
       external: ['react', 'react-dom'] // Ensure this is correct if you have a custom setup
     },
     },
-})
+});
