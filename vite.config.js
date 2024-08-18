@@ -11,7 +11,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['/src/main.jsx'] // Ensure this is correct if you have a custom setup
+      external: ['src/main.jsx'] // Ensure this is correct if you have a custom setup
     },
     },
 });
