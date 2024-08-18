@@ -11,9 +11,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      base: 'src/main.jsx',
-      input: 'index.html',
-      external: ['react', 'react-dom'] // Ensure this is correct if you have a custom setup
+      external: ['src/main.jsx'] // Ensure this is correct if you have a custom setup
     },
     },
 });
