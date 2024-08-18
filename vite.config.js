@@ -10,6 +10,7 @@ export default defineConfig({
     },
   },
   build: {
+    outDir: 'dist',
     rollupOptions: {
       external: ['./src/main.jsx'] // Ensure this is correct if you have a custom setup
     },
